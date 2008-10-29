@@ -1,7 +1,7 @@
 Summary:	IP Flood Detector
 Name:		ipflood
 Version:	1.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL
 Group:		System/Servers
 URL:		http://www.adotout.com/
@@ -11,7 +11,7 @@ Source2:	%{name}.sysconfig
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
 BuildRequires:	libpcap-devel
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 IP Flood Detector is a derivative of an earlier project, DNS Flood Detector. It
