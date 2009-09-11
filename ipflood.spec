@@ -1,7 +1,7 @@
 Summary:	IP Flood Detector
 Name:		ipflood
 Version:	1.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		System/Servers
 URL:		http://www.adotout.com/
