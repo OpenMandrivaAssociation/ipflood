@@ -1,4 +1,2 @@
 sources:
-  "ip_flood_detector.tar.gz:"	e19086545a2c33694094a51e7fe2da362006943c
-  "ipflood.init:"	03cf4892ebf1470fbf3c14e694f5ad3e94cfdd1f
-  "ipflood.sysconfig:"	150b3fdd05d7b5a8a00f8d96ddf236c812b5e721
+  "ip_flood_detector.tar.gz": e19086545a2c33694094a51e7fe2da362006943c

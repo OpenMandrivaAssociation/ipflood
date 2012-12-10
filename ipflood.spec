@@ -59,3 +59,33 @@ rm -rf %{buildroot}
 %attr(0755,root,root) %{_initrddir}/%{name}
 %attr(0755,root,root) %{_sbindir}/ip_flood_detector
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-6mdv2011.0
++ Revision: 619678
+- the mass rebuild of 2010.0 packages
+
+* Sun Oct 04 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0-5mdv2010.0
++ Revision: 453484
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Wed Oct 29 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0-3mdv2009.1
++ Revision: 298260
+- rebuilt against libpcap-1.0.0
+
+* Thu Aug 07 2008 Thierry Vignaud <tv@mandriva.org> 1.0-2mdv2009.0
++ Revision: 267123
+- rebuild early 2009.0 package (before pixel changes)
+
+* Tue Mar 18 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2008.1
++ Revision: 188543
+- fix typo
+- import ipflood
+
+
+* Tue Mar 18 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2008.1
+- initial Mandriva package
