@@ -1,0 +1,12 @@
+[Unit]
+Description=IP flood detector daemon
+After=syslog.target network.target
+Wants=network.target
+
+[Service]
+Type=forking
+EnvironmentFile=-sysconfig/ip_flood_detector
+ExecStart=/usr/sbin/ip_flood_detector -d $IP_FLOOD_DETECTOR_OPTIONS
+
+[Install]
+WantedBy=multi-user.target
