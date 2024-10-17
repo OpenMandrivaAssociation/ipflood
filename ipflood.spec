@@ -4,7 +4,7 @@ Version:	1.0
 Release:	9
 License:	GPL
 Group:		System/Servers
-URL:		http://www.adotout.com/
+URL:		https://www.adotout.com/
 Source0:	http://www.adotout.com/ip_flood_detector.tar.gz
 Source1:	%{name}.service
 Source2:	%{name}.sysconfig
